@@ -27,3 +27,6 @@ button {
   gap: 1rem;
   text-align: center;
 }
+.splash-logo {
+  transform: rotate(-90deg);
+}
