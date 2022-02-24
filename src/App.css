@@ -7,8 +7,23 @@
   border: none;
   outline: none;
 }
-
-.splash {
+button {
+  width: fit-content;
+  padding: 1.5rem 3rem;
+  background: none;
+  outline: 2px solid gray;
+  border-radius: .5rem;
+}
+.App {
   min-height: 100vh;
   width: 100vw;
+}
+.splash {
+  margin: 0 auto;
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
 }
