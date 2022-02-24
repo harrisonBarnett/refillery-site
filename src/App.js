@@ -1,9 +1,11 @@
 import './App.css';
+import Splash from './components/Splash'
+import Home from './components/Home'
 
 const App = () => {
   return (
     <div className="App">
-      <h1>hello refillery</h1>
+      <Splash/>
     </div>
   );
 }
